@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+.body1{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../img/Bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.body2{
+    margin: 0;
+    min-height: 140vh;
+    background-image: url(../img/Bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.body3{
+    margin: 0;
+    min-height: 140vh;
+    background-image: url(../img/Bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main_article{
+    position: relative;
+    height: 350px;
+}
+.main_article2{
+    position: relative;
+    height: 325px;
+}
+.main_article-text{
+    position: absolute;
+    height: 300px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    bottom: 275px;
+    left: 900px;
+}
+#Img2{
+    width: 350px;
+    height: 250px;
+    border-radius: 15%;
+    position: relative;
+    bottom: 155px;
+}
+#Img-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    bottom: 135px;
+    left: 1100px;
+}
+#Img-2{
+    width: 200px;
+    height: 325px;
+    border-radius: 10%; 
+    object-fit: cover;
+    position: absolute;
+    left: 100px;
+    bottom: -35px;
+}
+#Img_1{
+    width: 335px;
+    height: 335px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    bottom: 155px;
+    left: 980px;
+}
+#Img_2{
+    width: 350px;
+    height: 250px;
+    border-radius: 15%;
+    position: relative;
+    bottom: 250px;
+    left: 1100px;
+}
+#Img-3{
+    width: 350px;
+    height: 250px;
+    border-radius: 15%;
+    position: relative;
+    bottom: 180px;
+    left: 150px;
+}
+h3{
+    font-size: 125px;
+    color: #F73F1E;
+    margin: 0px;
+}
+.number{
+    color: #C11310;
+}
+main div p{
+    color: #E08B19;
+    font-size: 35px;
+    padding-left: 200px;
+    margin-top: 150px;
+}
+.main_div-text{
+    margin-top: -20px;
+    margin-left: 650px;
+    transform: rotate(13deg);
+    font-size: 40px;
+}
+.main_article-text--text3{
+    color: #EF413E;
+    margin-left: 620px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+.main_article-text--text2{
+    padding-left: 345px;
+    padding-right: 50px;
+    text-align: right;
+    transform: rotate(5deg);
+    margin-top: 70px;
+    font-size: 35px;
+}
+.main_div-div{
+    color: #BD781C;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 62.5px;
+    padding-left: 150px;
+    font-size: 20px;
+}
+.main_article-text--title{
+    color: #C11310;
+    font-size: 40px;
+    transform: rotate(-5deg);
+    margin-top: 100px;
+    margin-left: 450px;
+}
+.main_article-text--ul{
+    color: #ED2724;
+    font-size: 20px;
+    margin-top: 100px;
+    padding-left: 125px;
+    padding-right: 375px;
+
+}
+article p{
+    color: #ED2724;
+}
+footer{
+    color: #ED171E;
+    text-decoration: None;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+a{
+    color: #ED171E;
+    text-decoration: None;
+    font-size: 22.5px;
+}
+.header_nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    left: -20px;
+    gap: 45px;
+    background-color: rgba(237, 124, 23, 0.75);
+    padding: 45px;
+    padding-right: 40px;
+    border-radius: 25px;
+    z-index: 1;
+}
+.title{
+    transform: rotate(-5deg);
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+.title2{
+    transform: rotate(-15deg);
+    position: relative;
+    bottom: 165px;
+    left: 260px;
+}
+.title3{
+    transform: rotate(-6deg);
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    font-size: 175px;
+}
+.title_sec{
+    transform: rotate(6deg);
+    position: relative;
+    font-size: 150px;
+    top: 100px;
+    left: 150px;
+}
+.title_qua{
+    transform: rotate(6deg);
+    position: relative;
+    font-size: 175px;
+    top: 100px;
+    left: 300px;
+}
+main{
+    width: 1200px;
+    height: 120vh;
+}
+.main_article-text--text{
+    padding-left: 335px;
+    padding-right: 50px;
+    text-align: right;
+    transform: rotate(5deg);
+    margin-top: 70px;
+    font-size: 25px;
+}
+.center_text{
+    margin: 0px;
+    width: 1400px;
+}
+#ultimo{
+    font-size: 22.5px;
+}
+.link--active{
+    color: #EDC917;
+}
